@@ -1,0 +1,13 @@
+server:
+  port: 8888
+  servlet:
+    session:
+      cookie:
+        name: HSING_SESSIONID
+    context-path: /hsing
+  
+spring:
+  security:
+    user:
+      name: hsing
+      password: 1
